@@ -22,5 +22,7 @@ class String
     split.reject! { |word| word.strip.empty? }
     split.count
 
+    binding.pry
+
   end
 end
